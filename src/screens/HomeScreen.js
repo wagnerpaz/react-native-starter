@@ -42,6 +42,12 @@ const HomeScreen = ({navigation}) => {
           navigation.navigate('ColorComposer');
         }}
       />
+      <Button
+        title="Go to Text Demo"
+        onPress={ () => {
+          navigation.navigate('Text');
+        }}
+      />
 
       {/* DEMONSTRATE THE USE OF TouchableOpacity
       <TouchableOpacity
